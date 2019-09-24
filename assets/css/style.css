@@ -1,0 +1,11 @@
+@media print {
+	html body.fixed-navbar {
+		padding-top: 0px !important;
+	}
+
+	body.vertical-layout.vertical-menu-modern.menu-expanded .content {
+		margin-left: 0px !important;
+	}
+
+	@page {size: landscape}
+}
